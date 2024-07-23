@@ -33,3 +33,32 @@ Cloud Providers: someone else owns servers, hire people to mange, you are respon
 
 **On-Premise** - deploying resources on premise using virtualization and resource management tools, sometimes called a private cloud.
 - Better for the public sector eg govt, hospitals, insurance companies.
+
+**AWS Global Infrastructure**:
+Regions, Availability Zones (AZs), Edge locations.
+
+
+Region: physical location with multiple AZs.
+
+AZ: one or more discrete data centers
+
+Edge Location: datacenter owned by a trusted partner by AWS.
+
+
+**Regions**: location which has multiple data centers(AS’s)
+- Each region has at least 2 AZs
+- AWS largest region is US-East (north virginia)
+
+**AZs**: is a datacenter owned and operated by AWS in which AWS services run.
+- are represented by a region code, followed by letter identifier
+	Eg: us-east-1a here the last letter a is the AZ
+- < 10ms latency bw AZs
+
+**Edge locations**: is a datacenter owned by a trusted partner of AWS  which has a direct connection to the AWS network.
+- these locations serve requests for cloudfront and route 53. Requests going to either of these services will be routed to the nearest edge location automatically.
+- S3 transfer acceleration traffic and API Gateway endpoint traffic also use the AWS Edge network. 
+- This allows for low latency no matter where the end user is geographically located.
+
+**GovCloud(US) Regions**:
+AWS GovCloud regions allow customers to host sensitive Controlled Unclassified Information and other types  of regulated workloads.
+- these are only operated by employees who are US citizens, on US soil.
