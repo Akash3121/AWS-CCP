@@ -108,3 +108,9 @@ SIngle tenant - think individual house - single customer has dedicated hardware.
 
 ---
 
+**Database Services**:
+
+![AWS Databases](images/AWSDatabases.png)
+
+---
+
