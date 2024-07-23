@@ -23,6 +23,8 @@ Cloud Providers: someone else owns servers, hire people to mange, you are respon
 
 ![Types of cloud](images/typesofcloud.png)
 
+---
+
 **Cloud computing deployment models**:
 
 **Cloud** - fully utilizing cloud computing 
@@ -33,6 +35,8 @@ Cloud Providers: someone else owns servers, hire people to mange, you are respon
 
 **On-Premise** - deploying resources on premise using virtualization and resource management tools, sometimes called a private cloud.
 - Better for the public sector eg govt, hospitals, insurance companies.
+
+---
 
 **AWS Global Infrastructure**:
 Regions, Availability Zones (AZs), Edge locations.
@@ -62,3 +66,33 @@ Edge Location: datacenter owned by a trusted partner by AWS.
 **GovCloud(US) Regions**:
 AWS GovCloud regions allow customers to host sensitive Controlled Unclassified Information and other types  of regulated workloads.
 - these are only operated by employees who are US citizens, on US soil.
+
+---
+
+**AMI** - Amazon Machine Image- copy of entire server
+
+---
+
+**EC2 Pricing Model**:
+
+![EC2 pricing model](images/ec2pricing.png)
+
+**On-Demand**: by default, no up-front payment and no long-term commitment.
+- charged by hour or minutes
+- This is for applications where workload is short-term, spikey or unpredictable. When you have a new app for dev or you want to run an experiment.
+
+**Reserved Instances(RI)**: - best long term savings.
+- Designed for applications that have steady state, predictable usage or reserved capacity.
+- Reduced pricing is based on the Term * Class Offering * Payment Option.
+
+**Spot Instances**: AWS has unused compute capacity that they want to maximize the utility of their idle servers. 
+90% discount than on demand pricing.
+* spot instances can be terminated if the computing capacity is needed for on-demand customers.
+
+**Dedicated Host Instances**:
+
+Multi tenant - think apartment - multiple customers are running workloads on shared hardware. Virtual isolation separates customers.
+SIngle tenant - think individual house - single customer has dedicated hardware. Physical Isolation separates customers.
+
+---
+
