@@ -126,3 +126,19 @@ SIngle tenant - think individual house - single customer has dedicated hardware.
 
 ---
 
+**Storage**:
+
+![AWS Storage](images/AWSStorage.png)
+
+---
+
+**Shared Responsibility Model**:
+
+Customers are responsible for security in the cloud. (data , configuration)
+
+AWS is responsible for security of the cloud. (hardware, global infrastructure)
+
+![Shared Model](images/SharedResponsibilityModel.png)
+
+---
+
