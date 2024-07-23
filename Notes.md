@@ -96,3 +96,8 @@ SIngle tenant - think individual house - single customer has dedicated hardware.
 
 ---
 
+**AWS Support Plans**:
+
+![AWS Support Plans](images/AWSSupportplans.png)
+
+---
