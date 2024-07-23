@@ -1,8 +1,8 @@
-AWS CCP- Certified Cloud Certification
+**AWS CCP - Certified Cloud Certification**
 
 Focuses on billing and business-centric concepts.
 
-> $100USD, 90mins, 65 questions, 70% passing score, valid for 3 years.
+- $100USD, 90mins, 65 questions, 70% passing score, valid for 3 years.
 
 Exam Guide: 
 Cloud concepts - 28%
