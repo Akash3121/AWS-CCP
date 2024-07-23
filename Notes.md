@@ -142,3 +142,13 @@ AWS is responsible for security of the cloud. (hardware, global infrastructure)
 
 ---
 
+**NACL vs Security Group**:
+
+NACL network access control lists - acts as a firewall at the subnet level
+
+Security Group acts as a firewall at the instance level
+
+![NACL vs Security Groups](images/NACLvsSecurityGroups.png)
+---
+ 
+**Reference**: https://youtu.be/3hLmDS179YE?si=KQVUI4aQZvlbRDnq
