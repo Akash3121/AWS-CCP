@@ -114,3 +114,15 @@ SIngle tenant - think individual house - single customer has dedicated hardware.
 
 ---
 
+**Provisioning**:
+
+![AWS Provisioning](images/AWSProvisioning.png)
+
+---
+
+**Computing**:
+
+![AWS Computing](images/AWSComputing.png)
+
+---
+
